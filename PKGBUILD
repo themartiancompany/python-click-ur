@@ -4,8 +4,8 @@
 
 pkgname=python-click
 _realname=click
-pkgver=8.1.3
-pkgrel=3
+pkgver=8.1.4
+pkgrel=1
 pkgdesc="Simple wrapper around optparse for powerful command line utilities"
 arch=("any")
 url='https://click.palletsprojects.com/'
@@ -14,7 +14,7 @@ depends=("python")
 makedepends=('python-setuptools' 'python-build' 'python-installer' 'python-wheel')
 checkdepends=('python-pytest')
 source=("https://github.com/pallets/click/archive/${pkgver}/$pkgname-$pkgver.tar.gz")
-sha512sums=('29194ee3877e013a2fe1037870522c5b5a78136ca60da9109f29312a3e52c767867f5eec2d90ca385cd0508f77555b9d6ad8f5141dc31900ddc9307a2207a818')
+sha512sums=('3095990cdbaa01a61fa5d84f6a80c03a9c645c81ac569f66a4b23ba06e37ba79a5c9fcc6f09a7b8bed1082cb17c0381743c5a160ae14634f102b7f29175e739b')
 
 build() {
   cd "${srcdir}/${_realname}-${pkgver}"
